@@ -19,6 +19,13 @@ public class HelloWorld{
         shain2.setNen(1999);
         shainList.add(shain2);
 
+        object shain3 = new object();
+        shain3.setId(20252099);
+        shain3.setName("Cao");
+        shain3.setSei("Anderson");
+        shain3.setNen(2010);
+        shainList.add(shain3);
+
         System.out.println(shainList.get(0).getName());
 
         for(object obj : shainList){
